@@ -17,6 +17,25 @@ kbot = new Kbot("ES");
 console.log(kbot.saludar("Juan", 20)=="Buenas noches Juan");
 */
 
+class Kbot {
+    constructor(idioma = "EN") {
+        this.idioma = idioma;
+    }
+
+    saludar(nombre, hora = new Date().getHours()) {
+        let saludo = "";
+        if (this.idioma === "ES") {
+            if (hora >= 0 && hora < 12) {
+                saludo = "Buenos días";
+            } else if (hora >= 12 && hora < 18) {
+                saludo = "Buenas tardes";
+            } else {
+                saludo = "Buenas noches";
+            }
+        } 
+        return `${saludo} ${nombre}`;
+    }
+}
 
 describe("Saludor", () => {
     it("deberia Saludar a Andrés en idioma default", () => {
