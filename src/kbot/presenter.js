@@ -1,4 +1,4 @@
-//import Kbot from "./kbot";
+import Kbot from "./kbot";
 
 const nombre = document.querySelector("#nombre");
 const form = document.querySelector("#kbot-form");

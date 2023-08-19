@@ -21,7 +21,6 @@
   "name": "parcelbase",
   "description": "npm install",
   "version": "1.0.0",
-  "main": "cypress.config.js",
   "author": "Nicolette",
   "license": "ISC"
 }
