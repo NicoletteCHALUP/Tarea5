@@ -15,6 +15,13 @@
     "parcel": "^2.8.3"
   },
   "devDependencies": {
-    "cypress": "^12.9.0"
-  }
+    "cypress": "^12.9.0",
+    "parcel-bundler": "^1.12.5"
+  },
+  "name": "parcelbase",
+  "description": "npm install",
+  "version": "1.0.0",
+  "main": "cypress.config.js",
+  "author": "Nicolette",
+  "license": "ISC"
 }
